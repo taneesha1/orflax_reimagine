@@ -241,6 +241,7 @@ footer{
 
 .container_for_about {
     width: 80%;
+    height:60%;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
@@ -256,7 +257,6 @@ footer{
     width: 100%;
     height: 50%;
     background-size: cover;
-    background-position: center;
     opacity: 0;
     transition: opacity 1s;
 }
