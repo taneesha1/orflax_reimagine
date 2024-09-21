@@ -316,7 +316,7 @@ footer{
 
 #products_home_page_heading{
 
-    background-image: url(ourproductmain.jpeg);
+    background-image: url(ourproductmainimg.jpeg);
     background-size: cover;
     background-position-y: bottom;
     height:300px;
@@ -334,12 +334,14 @@ footer{
     width:10px;
 }
 
-.productbutton{
+#productbutton{
 
     position: relative;
     bottom:100%;
     width:100px;
     right:280px;
+
+    
 }
 
 #product_list{
@@ -373,3 +375,8 @@ width:300px;
 position: relative;
 left:10%;
 }
+
+
+
+
+
