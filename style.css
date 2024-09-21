@@ -207,7 +207,7 @@ footer{
 .director-image {
     width: 100%;
     height: 100%;
-    background-image: url('director.jpeg');
+    background-image: url("director.jpeg");
     background-size: cover;
     filter: brightness(0.5);
 }
