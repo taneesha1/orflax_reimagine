@@ -288,3 +288,55 @@ container_for_director {
     filter: brightness(0.5);
 }
 
+#products_home_page_heading{
+
+    background-image: url(ourproductmain.jpeg);
+    background-size: cover;
+    background-position-y: bottom;
+    height:300px;
+    color: black;
+    font-size: 60px;
+}
+
+
+#our_product_button{
+
+    position: relative;
+    left:90%;
+    top:-160px;
+    height:100px;
+    width:10px;
+}
+
+.productbutton{
+
+    position: relative;
+    bottom:100%;
+    width:100px;
+    right:280px;
+}
+
+#product_list{
+    margin-left: 70px;
+    margin-top:-70px;
+    margin-bottom: 0%;
+}
+
+ul{
+    list-style: none;
+    font-size: x-large;
+}
+
+#product_home_page_msg{
+
+    height:400px;
+    width:300px;
+    font-size: xx-large;
+    position:relative;
+    left:60%;
+    top:-400px;
+    margin-bottom: 0%;
+}
+#products_home_page{
+    height:650px;
+}
