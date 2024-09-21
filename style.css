@@ -240,12 +240,10 @@ footer{
 
 
 .container_for_about {
-    position: relative;
     width: 80%;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .slideshow {
