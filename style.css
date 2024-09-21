@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(20, 18, 18);
 }
 
 #navbar{
@@ -320,7 +320,7 @@ footer{
     background-size: cover;
     background-position-y: bottom;
     height:300px;
-    color: black;
+    color: white;
     font-size: 60px;
 }
 
@@ -365,4 +365,11 @@ ul{
 }
 #products_home_page{
     height:650px;
+}
+
+#products_home_page_subheading{
+font-size: large;
+width:300px;
+position: relative;
+left:10%;
 }
