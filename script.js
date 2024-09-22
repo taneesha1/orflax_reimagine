@@ -46,10 +46,4 @@ userInput.addEventListener("keypress", (event) => {
     }
 });
 
-const messageContainer = document.createElement("div");
-messageContainer.classList.add("message-container");
-chatBox.insertBefore(messageContainer,chatBox.querySelector('.input-container'));
-// Clear chat history
-clearButton.addEventListener("click", () => {
-    chatBox.innerHTML = ""; // Clear chat box
-});
+
