@@ -19,6 +19,14 @@ body{
     z-index: 2;
 }
 
+.whitebutton{
+padding-bottom: 10px;
+padding-top: 5px;;
+width:100px;
+height:30px;
+cursor: pointer;
+}
+
 #main_img{
 
     width:100%;
@@ -113,6 +121,16 @@ main{
     
 }
 
+#productbutton{
+  
+    padding-bottom: 10px;
+padding-top: 5px;;
+width:100px;
+height:30px;
+border: black solid;
+
+}
+
 #about_us_content_msg{
 
     width:40%;
@@ -123,14 +141,17 @@ main{
 
 
 .blue_buttons{
+    margin-top: 20px;
+margin-left: 30px;
+padding: 10px;
  
  background-image: linear-gradient(#061C21,#197387);
 color:white;
 border: none ;
 border-radius: 10px;
 height:50px;
-width:80px;
-margin: 20px;;
+width:100px;
+margin: 20px;
 
 }
 
