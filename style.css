@@ -488,13 +488,6 @@ left:10%;
 }
 
 /*chatbot*/
-/*chatbot*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 .chat-container_for_chatbot{
     background-image: url("img.png");
     background-size: contain;
@@ -515,23 +508,13 @@ left:10%;
     padding: 20px;
 }
 
-.header {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    grid-right: 2;
-}
 
 .logo {
     width: 100px;
     margin-right: 10px;
 }
 
-h1 {
-    font-size: 2rem;
-    color: #f1c40f;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .chat-container_for_chatbot {
     /* max-width: 500px;
@@ -669,11 +652,6 @@ button_chatbot:hover {
 
 }
 
-footer {
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #888;
-}
 .chat-bot-title{
     font-family: "JetBrains Mono ExtraBold", sans-serif;
     font-weight: bold;
