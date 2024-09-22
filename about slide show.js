@@ -1,12 +1,16 @@
-var slides = document.getElementsByClassName("slide");
-var currentSlide = 0;
+let slideIndex = 0;
+showSlides();
 
-function showSlide() {
-    for (var i = 0; i < slides.length; i++) {
-        slides[i].style.opacity = 0;
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
-    slides[currentSlide].style.opacity = 1;
-    currentSlide = (currentSlide + 1) % slides.length;
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-
-setInterval(showSlide, 3000);
