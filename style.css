@@ -304,7 +304,7 @@ h2 {
 #container_for_director {
     position: relative;
     width: 80%;
-    margin: 40px auto;
+    margin: 40px;
 }
 
 .director-image {
@@ -313,7 +313,6 @@ h2 {
     left: 0;
     width: 90%;
     height: 80%;
-    background-image: url('director.jpeg');
     background-size: cover;
     filter: brightness(0.5);
 }
@@ -487,4 +486,14 @@ left:10%;
     margin:20px;
     width:400px;
     height:150px;
+}
+
+
+#directors_name{
+    position: relative;
+    left:50%;
+    top:400px;
+    width:600px;
+    font-size: xx-large;
+    z-index: 2;
 }
