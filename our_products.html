@@ -40,74 +40,92 @@
            
 
             
-        <div class="products">
-        <div> <img src="product1.webp" class="product1"> </div>
+            <div class="card">
+                <div class="inner-card" id="card">
+                
+                    <div class="card-face front">
+                        <div id="card-image"><img src="product1.webp" class="product1"></div>
+        
+                        <div id="card_flip_content">
+                        <div class="product_name"> <h3>MULTISTRAND WIRES
+                        </h3></div>
+                        <button onclick="flipCard()" class="flipbutton">Click to see the price</button>
+                    </div>
+                </div>
 
-             <div> 
 
-            <div class="product_name"> <h3>MULTISTRAND WIRES
-            </h3></div>
-            <br>
-            <div><button> Click to see the price </button>
-
+                <div class="card-face back">
+                    <div>
+                    <div> <img src="table.jpeg" class="price-chart"></div>
+                    
+                        <button onclick="flipCard()" class="flipbutton">Flip Card</button>
+                    </div>
+                </div>
             </div>
-        
-        
+        </div>
+                  
+
+
+
+        <div class="card">
+            <div class="inner-card" id="card">
+            
+                <div class="card-face front">
+                    <div id="card-image"><img src="product2.jpeg" class="product1"></div>
+    
+                    <div id="card_flip_content">
+                    <div class="product_name"> <h3>MULTICORE ROUND FLEXIBLE CABLES
+                    </h3></div>
+                    <button class="flipbutton">Click to see the price</button>
+                </div>
+            </div>
+
+
+            <div class="card-face back">
+                <div>
+                <div> <img src="table.jpeg" class="price-chart"></div>
+                
+                    <button>Flip Card</button>
+                </div>
+            </div>
         </div>
     </div>
 
 
 
+    <div class="card">
+        <div class="inner-card" id="card">
+        
+            <div class="card-face front">
+                <div id="card-image"><img src="wireimg.jpeg" class="product1"></div>
 
-
-        <div class="products">
-
-            <div> <img src="WhatsApp Image 2024-09-20 at 7.55.53 PM.jpeg" class="product1"> </div>
-    
-                 <div> 
-    
-                <div class="product_name"><h3>MULTICORE ROUND FLEXIBLE CABLES</h3></div>
-                <br>
-                <div><button> Click to see the price </button>
-    
-                </div>
-            
-            
+                <div id="card_flip_content">
+                <div class="product_name"> <h3>SUBMERSIBLE CABLES
+                </h3></div>
+                <button class="flipbutton" >Click to see the price</button>
             </div>
-
-
-
-
-
-
         </div>
 
 
-
-
-
-
-        <div class="products">
-
-            <div> <img src="wireimg.jpeg" class="product1"> </div>
-    
-                 <div> 
-    
-                <div class="product_name"><h3>SUBMERSIBLE CABLES</h3></div>
-                <br>
-                <div><button> Click to see the price </button>
-    
-                </div>
+        <div class="card-face back">
+            <div>
+            <div> <img src="table.jpeg" class="price-chart"></div>
             
-            
+                <button>Flip Card</button>
             </div>
-
-
-
-
-
-
         </div>
+    </div>
+</div>
+
+            </div>
+    
+
+
+
+
+
+
+        
 
 
     
@@ -135,7 +153,12 @@
 
 
 
-
+    <script>
+        function flipCard() {
+            const card = document.getElementById('card');
+            card.classList.toggle('flipped'); // Toggle the 'flipped' class to rotate the card
+        }
+    </script>
 
 
 
